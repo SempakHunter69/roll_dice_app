@@ -8,7 +8,7 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: SafeArea(
-          child: GradientContainer(),
+          child: GradientContainer(Colors.deepPurple, Colors.purpleAccent),
         ),
       ),
     ),
